@@ -1,23 +1,17 @@
-<?php include_once 'header.php'; ?>
-	<form method="post" action="../controller/delete_user.php">
+<?php 
 
+	include_once 'header.php';
+	?>
+	
+		<form action="../controller/search_user.php" method="POST">
 		
-			<div style="container">
-				<table style="width:100%;">
-					<tr>
-						<td>
-							<h3>Update By Aadhar Card</h3>
-							<input type="search" name="search" class="form-control" placeholder="Search Here" required autofocus>
-						</td>
-						<td>
-							<h3>Update By Ration Card</h3>
-						<input type="search" name="search" class="form-control" placeholder="Ration Card Number" required autofocus>
-						</td><br></tr></table>
-		</div>
-		<div class="container">
-						<td style="text-align: center;">
-						<button type="submit" class="btn btn-success form-control" style="width: 208px;">Update User</button></td>
-		</div>	
-		
-	</form>
-<?php include_once 'footer.php'; ?>
+			<div class="container">
+				<input type="text" id="search" name="aadhar_no" placeholder="Aadhar code" class="form-control" required><br>
+				<input type="text" id="search" name="card_no" placeholder="Ration card" class="form-control" required><br>
+				<input id="submit" type="submit" value="search" class="form-control btn btn-info" required><br>
+			</div>
+		</form>
+<?php 
+
+	include_once 'footer.php';
+	?>

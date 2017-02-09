@@ -1,6 +1,5 @@
 <?php include_once 'header.php'; ?>
-	<form method="POST
-	" action="../controller/add_user.php">
+	<form method="post" action="../controller/add_user.php">
 		<table class="table" style="width:44%;">
 			<tr>
 				<td>
@@ -25,9 +24,8 @@
 				</td>
 				<td>
 				<form action="">
-					<input type="radio" name="gender" value="Male"> Male <br>
-					<input type="radio" name="gender" value="Female"> Female <br>
-					<input type="radio" name="gender" value="Others"> Others <br>
+					<input type="radio" name="gender" value="male"> Male <br>
+					<input type="radio" name="gender" value="female"> Female <br>
 				</td>
 			</tr>
 			<tr>
@@ -35,7 +33,7 @@
 					<p>Enter Mobile Number :- </p>
 				</td>
 				<td>
-					<input type="number" name="mobile_number" class="form-control" placeholder="Mobile Number" required autofocus>
+					<input type="number" name="mobile_no" class="form-control" placeholder="Mobile Number" required autofocus>
 				</td>
 			</tr>
 			<tr>
@@ -43,7 +41,7 @@
 					<p>Address :- </p>
 				</td>
 				<td>
-					<textarea class="form-control" rows="5" name="Address" id="address" placeholder="Address"></textarea>
+					<textarea class="form-control" rows="5" name="address" id="address" placeholder="Address"></textarea>
 				</td>
 			</tr>
 			<tr>
@@ -51,7 +49,7 @@
 					<p>Date of birth:- </p>
 				</td>
 				<td>
-					<input type="date" name="date" class="form-control" placeholder="DOB" required autofocus>
+					<input type="date" name="dob" class="form-control" placeholder="DOB" required autofocus>
 				</td>
 			</tr>
 			<tr>
@@ -59,7 +57,7 @@
 					<p>Adhaar Number :- </p>
 				</td>
 				<td>
-					<input type="number" name="aadhar_number" class="form-control" placeholder="Adhaar Number" required autofocus>
+					<input type="number" name="aadhar_no" class="form-control" placeholder="Adhaar Number" required autofocus>
 				</td>
 			</tr>
 			<tr>
@@ -67,7 +65,7 @@
 					<p>Card number:- </p>
 				</td>
 				<td>
-					<input type="text" name="ration_card_number" class="form-control" placeholder="card number" required autofocus>
+					<input type="text" name="card_no" class="form-control" placeholder="card number" required autofocus>
 				</td>
 			</tr>
 			<tr>
@@ -76,8 +74,8 @@
 				</td>
 				<td>
 				<form action="">
-					<input type="radio" name="ration_card_type" value="Sugar"> Sugar <br>
-					<input type="radio" name="ration_card_type" value="Rice"> Rice <br>
+					<input type="radio" name="card_type" value="sugar"> Sugar <br>
+					<input type="radio" name="card_type" value="rice"> Rice <br>
 				</td>
 			</tr>
 			
@@ -89,5 +87,5 @@
 				</td>
 			</tr>
 		</table>
-	</form>
+	</form>	
 <?php include_once 'footer.php'; ?>

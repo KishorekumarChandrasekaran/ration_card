@@ -7,21 +7,17 @@
   <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
   <script src="../js/login.js"></script>
 </head>
-<body>
-  <div id="login-button">
-    <img src="../img/login-w-icon.png">
-    </img>
+<body><h1>Log In</h1>
+    
+ 
+  <div class="container">
+    <form action="../controller/login_controller.php" method="POST">
+      <input type="text" name="name" class="form-control" placeholder="Name" required >
+      <input type="password" name="password"  class ="form-control" placeholder="Password" required >
+      <input type="submit" class="btn btn-success" value="Login">      
+    </form>
   </div>
-  <div id="container">
-    <h1>Log In</h1>
-    <span class="close-btn">
-      <img src="../img/circle_close_delete_-128.png"></img>
-    </span>
-    <form>
-      <input type="email" name="email" placeholder="E-mail">
-      <input type="password" name="pass" placeholder="Password">
-      <a href="add_user.php">Log in</a>
-  </form>
-  </div>
+
+
 </body>
 </html>

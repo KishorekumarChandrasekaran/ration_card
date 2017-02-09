@@ -1,9 +1,11 @@
 <?php 
 	include_once 'header.php';
+	print_r($_POST);
+	function search_user()
+	{
 	$conn = db_connect();
-	$where = "`aadhar_number` = '". $_POST['aadhar_number']."' AND `ration_card_number` = '".$_POST['ration_card_number']."'";
+	$where = "`aadhar_no` = '".$_POST['aadhar_no']."' AND `card_no` = '".$_POST['card_no']."'";
 	$result = select('*', 'users', $where, $conn);
-	echo "<pre>";
-	print_r($result);
-
+	return $result;
+	}
  ?>

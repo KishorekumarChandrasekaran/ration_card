@@ -2,13 +2,14 @@
 	
 	include_once 'curd_operations.php';
 	function db_connect(){
-		$connection = mysqli_connect("127.0.0.1", "root", "root", "ration_card");
+		$connection = mysqli_connect("localhost", "root", "", "ration_card");
 		if (!$connection) {
 			die("Connection failed: " . mysqli_connect_error());
 			exit();
 		}
 		return $connection;
 	}
+	
 	function execute_query($query, $link){
 		if(!empty($link)){
 			return mysqli_query($link, $query);

@@ -3,7 +3,6 @@
 	function delete($table_name, $condition, $conn){
 		$table_name = sanitize($table_name, $conn);
 		$sql = get_delete_query($table_name, $condition, $conn);
-		// echo "$sql";
 		return execute_query($sql, $conn);
 	}
 
