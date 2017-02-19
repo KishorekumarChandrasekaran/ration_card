@@ -16,8 +16,8 @@
   <!-- header -->
   <header class="main-header">
     <a href="home.php" class="logo">
-      <span class="logo-mini"><b>V</b></span>
-      <span class="logo-lg"><b>Vefetch</b></span>
+      <span class="logo-mini"><b>R</b></span>
+      <span class="logo-lg"><b>Ration Card</b></span>
     </a>
     <nav class="navbar navbar-static-top">
       <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
@@ -27,14 +27,14 @@
         <ul class="nav navbar-nav">
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="../img/pp.jpg" class="user-image" alt="User Image">
-              <span class="hidden-xs">Sudhakar</span>
+              <img src="../img/admn.png" class="user-image" alt="User Image">
+              <span class="hidden-xs">ADMIN</span>
             </a>
             <ul class="dropdown-menu">
               <li class="user-header">
-                <img src="../img/pp.jpg" class="img-circle" alt="User Image">
+                <img src="../img/admn.png" class="img-circle" alt="User Image">
                 <p>
-                  Bye Sudhakar
+                  Bye ADMIN
                 </p>
               </li>
               <li class="user-footer">
@@ -55,8 +55,8 @@
           <!-- <li><a href="home.php"><i class="fa fa-circle-o text-red "></i> <span>Dashboard</span></a></li> -->
           <li><a href="add_user.php"><i class="fa fa-circle-o text-yellow"></i> <span>MY CARD</span></a></li>
            <li><a href="update_user.php"><i class="fa fa-circle-o text-yellow"></i> <span>UPDATE</span></a></li>
-           <li><a href="delete_user.php"><i class="fa fa-circle-o text-yellow"></i> <span>DELETE</span></a></li>
-           <li><a href="view_user.php"><i class="fa fa-circle-o text-yellow"></i> <span>VIEW</span></a></li>
+           <li><a href="delete_user.php"><i class="fa fa-circle-o text-red"></i> <span>DELETE</span></a></li>
+           <li><a href="view_user.php"><i class="fa fa-circle-o text-aqua"></i> <span>VIEW</span></a></li>
           <!-- <li><a href="bulk_sms.php"><i class="fa fa-circle-o text-aqua"></i> <span>Bulk SMS</span></a></li>
           <li><a href="mark_upload.php"><i class="fa fa-circle-o text-red"></i> <span>Mark Upload</span></a></li>
           <li><a href="sms_history.php"><i class="fa fa-circle-o text-yellow"></i> <span>Sms History</span></a></li>
